@@ -1,0 +1,8 @@
+start mongodb server
+mongod --dbpath=/data --port 27017
+
+start mongodb shell
+mongo
+
+stop mongodb server
+launchctl unload -w ~/Library/LaunchAgents/org.mongodb.mongod.plist
